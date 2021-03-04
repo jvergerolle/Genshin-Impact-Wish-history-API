@@ -58,7 +58,7 @@ https://hk4e-api-os.mihoyo.com/event/gacha_info/api/getGachaLog?authkey_ver=1&si
 ### Get gatcha banners (JSON)
 
 ```jsx
-https://hk4e-api-os.mihoyo.com/event/gacha_info/api/getConfigList?authkey_ver=1&sign_type=2&auth_appid=webview_gacha&init_type=301&gacha_id=eb44e687757162d2cd66b5c6bfaf980e5b7cf1&region=os_euro&lang=fr&device_type=pc&ext=%7b%22loc%22%3a%7b%22x%22%3a1908.957763671875%2c%22y%22%3a200.475341796875%2c%22z%22%3a-1279.7091064453125%7d%7d&game_version=OSRELWin1.0.1_R1284249_S1393824_D1358691&authkey=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX&game_biz=hk4e_global
+https://hk4e-api-os.mihoyo.com/event/gacha_info/api/getConfigList?authkey_ver=1&sign_type=2&auth_appid=webview_gacha&init_type=301&gacha_id=eb44e687757162d2cd66b5c6bfaf980e5b7cf1&region=os_euro&lang=en&device_type=pc&ext=%7b%22loc%22%3a%7b%22x%22%3a1908.957763671875%2c%22y%22%3a200.475341796875%2c%22z%22%3a-1279.7091064453125%7d%7d&game_version=OSRELWin1.0.1_R1284249_S1393824_D1358691&authkey=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX&game_biz=hk4e_global
 ```
 
 ### Get banner items list (JSON)
@@ -67,4 +67,4 @@ https://hk4e-api-os.mihoyo.com/event/gacha_info/api/getConfigList?authkey_ver=1&
 https://webstatic-sea.mihoyo.com/hk4e/gacha_info/os_euro/items/en-us.json
 ```
 
-Be careful Items are not always updated by miHoYo
+**Be careful Items are not always updated by miHoYo**
