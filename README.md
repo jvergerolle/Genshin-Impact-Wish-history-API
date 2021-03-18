@@ -117,7 +117,7 @@ https://hk4e-api-os.mihoyo.com/event/gacha_info/api/getGachaLog?authkey_ver=1&si
   }
 }
 ```
-### Updates
+## Updates
 
 **Update February 2021** : 
 `item_id` is no longer filled in response
