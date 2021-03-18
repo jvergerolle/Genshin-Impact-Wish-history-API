@@ -24,8 +24,12 @@ https://hk4e-api-os.mihoyo.com/event/gacha_info/api/getGachaLog?authkey_ver=1&si
     - en = English
     - fr = French
 - authkey=*urlencoded* *key* `mandatory` *(vary with time can be obtained from the game or external pages fetch by the game)*
-- gatcha_type=*gatcha code numbe*r `mandatory`
-- page=*page number* `mandatory`(
+- gatcha_type=*gatcha code number* `mandatory`
+    - 100 = begginer banner
+    - 200 = permanent banner
+    - 301 = event banner
+    - 302 = weapon banner
+- page=*page number* `mandatory`
 - size=*array size (between 1 and 20 / default 6)*
 - end_id = *last wish id in the previous page (can be 0 to get first page)*
 
