@@ -127,4 +127,4 @@ https://hk4e-api-os.mihoyo.com/event/gacha_info/api/getGachaLog?authkey_ver=1&si
 `item_id` is no longer filled in response
 
 ### Update 1.4 (March 2021)
-Mihoyo has changed the pagination mechanic. They added an `id` for each wish and a parameter `en_id` in the url. To get the wishes in a page you need to provide the last wish id from the previous page in the `en_id` parameter. If you do not provide a valid `en_id` or `en_id` is missing the API will return the first page.
+Mihoyo has changed the pagination mechanic. They added an `id` for each wish and a parameter `end_id` in the url. To get the wishes in a page you need to provide the last wish id from the previous page in the `end_id` parameter. If you do not provide a valid `end_id` or `end_id` is missing the API will return the first page.
