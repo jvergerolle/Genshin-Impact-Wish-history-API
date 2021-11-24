@@ -37,88 +37,90 @@ https://hk4e-api-os.mihoyo.com/event/gacha_info/api/getGachaLog?authkey_ver=1&si
 
 ```json
 {
-  "retcode": 0,
-  "message": "OK",
-  "data": {
-    "page": "1",
-    "size": "6",
-    "total": "0",
-    "list": [
-      {
-        "uid": "710805498",
-        "gacha_type": "301",
-        "item_id": "",
-        "count": "1",
-        "time": "2021-03-02 18:48:40",
-        "name": "Hu Tao",
-        "lang": "en-us",
-        "item_type": "Character",
-        "rank_type": "5",
-        "id": "1614704760008110546"
-      },
-      {
-        "uid": "710805498",
-        "gacha_type": "301",
-        "item_id": "",
-        "count": "1",
-        "time": "2021-03-02 18:48:12",
-        "name": "Ferrous Shadow",
-        "lang": "en-us",
-        "item_type": "Weapon",
-        "rank_type": "3",
-        "id": "1614704760008079589"
-      },
-      {
-        "uid": "710805498",
-        "gacha_type": "301",
-        "item_id": "",
-        "count": "1",
-        "time": "2021-03-02 18:47:41",
-        "name": "Raven Bow",
-        "lang": "en-us",
-        "item_type": "Weapon",
-        "rank_type": "3",
-        "id": "1614704760008045229"
-      },
-      {
-        "uid": "710805498",
-        "gacha_type": "301",
-        "item_id": "",
-        "count": "1",
-        "time": "2021-03-02 18:47:41",
-        "name": "Bloodtainted Greatsword",
-        "lang": "en-us",
-        "item_type": "Weapon",
-        "rank_type": "3",
-        "id": "1614704760008045228"
-      },
-      {
-        "uid": "710805498",
-        "gacha_type": "301",
-        "item_id": "",
-        "count": "1",
-        "time": "2021-03-02 18:47:41",
-        "name": "Raven Bow",
-        "lang": "en-us",
-        "item_type": "Weapon",
-        "rank_type": "3",
-        "id": "1614704760008045227"
-      },
-      {
-        "uid": "710805498",
-        "gacha_type": "301",
-        "item_id": "",
-        "count": "1",
-        "time": "2021-03-02 18:47:41",
-        "name": "Chongyun",
-        "lang": "en-us",
-        "item_type": "Character",
-        "rank_type": "4",
-        "id": "1614704760008045226"
-      }
-    ],
-    "region": "os_euro"
-  }
+    "retcode": 0,
+    "message": "OK",
+    "data":
+    {
+        "page": "1",
+        "size": "6",
+        "total": "0",
+        "list":
+        [
+            {
+                "uid": "700000000",
+                "gacha_type": "301",
+                "item_id": "",
+                "count": "1",
+                "time": "2021-11-24 22:18:45",
+                "name": "Albedo",
+                "lang": "en-us",
+                "item_type": "Character",
+                "rank_type": "5",
+                "id": "1637787960000243756"
+            },
+            {
+                "uid": "700000000",
+                "gacha_type": "301",
+                "item_id": "",
+                "count": "1",
+                "time": "2021-11-24 22:18:45",
+                "name": "Rosaria",
+                "lang": "en-us",
+                "item_type": "Character",
+                "rank_type": "4",
+                "id": "1637787960000243656"
+            },
+            {
+                "uid": "700000000",
+                "gacha_type": "301",
+                "item_id": "",
+                "count": "1",
+                "time": "2021-11-24 22:18:45",
+                "name": "Magic Guide",
+                "lang": "en-us",
+                "item_type": "Weapon",
+                "rank_type": "3",
+                "id": "1637787960000243556"
+            },
+            {
+                "uid": "700000000",
+                "gacha_type": "301",
+                "item_id": "",
+                "count": "1",
+                "time": "2021-11-24 22:18:45",
+                "name": "Ferrous Shadow",
+                "lang": "en-us",
+                "item_type": "Weapon",
+                "rank_type": "3",
+                "id": "1637787960000243456"
+            },
+            {
+                "uid": "700000000",
+                "gacha_type": "301",
+                "item_id": "",
+                "count": "1",
+                "time": "2021-11-24 22:18:45",
+                "name": "Magic Guide",
+                "lang": "en-us",
+                "item_type": "Weapon",
+                "rank_type": "3",
+                "id": "1637787960000243356"
+            },
+            {
+                "uid": "700000000",
+                "gacha_type": "400",
+                "item_id": "",
+                "count": "1",
+                "time": "2021-11-24 22:18:28",
+                "name": "Sharpshooter's Oath",
+                "lang": "en-us",
+                "item_type": "Weapon",
+                "rank_type": "3",
+                "id": "1637787960000237756"
+            }
+        ],
+        "region": "os_euro"
+    }
 }
 ```
 ## Updates
