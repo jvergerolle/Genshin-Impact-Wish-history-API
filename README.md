@@ -18,8 +18,8 @@ https://hk4e-api-os.mihoyo.com/event/gacha_info/api/getGachaLog?authkey_ver=1&si
 - init_type=*gatcha code number* `mandatory`
     - 100 = begginer banner
     - 200 = permanent banner
-    - 301 = event banner
-    - 302 = weapon banner
+    - 301 = character event banner
+    - 302 = weapon event banner
 - lang=*country code* `mandatory` (Same lang code as the game)
     - en = English
     - fr = French
@@ -128,3 +128,7 @@ https://hk4e-api-os.mihoyo.com/event/gacha_info/api/getGachaLog?authkey_ver=1&si
 
 ### Update 1.4 (March 2021)
 Mihoyo has changed the pagination mechanic. They added an `id` for each wish and a parameter `end_id` in the url. To get the wishes in a page you need to provide the last wish id from the previous page in the `end_id` parameter. If you do not provide a valid `end_id` or `end_id` is missing the API will return the first page.
+
+### Update 2.3 (November 2021)
+- Mihoyo has changed the authentication method to request the API. The authkey to get wish data must be from the webview_gatcha app (wish history page) in order to get the wish history.
+- The value of key `gacha_type` can now be 301 or 400. (**301** will be for wishes made on "Character event wish" banners and **400** will be for "Character event wish - 2".)
