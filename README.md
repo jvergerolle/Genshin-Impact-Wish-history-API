@@ -9,7 +9,7 @@ https://hk4e-api-os.hoyoverse.com/event/gacha_info/api/getGachaLog?authkey_ver=1
 ```
 
 **Base URL** : https://hk4e-api-os.hoyoverse.com/event/gacha_info/api/getGachaLog
-*Disclaimer : the base URL may differ on chinese version of the game*
+*(the base URL may differ on chinese version of the game)*
 
 **Params**
 
@@ -137,4 +137,4 @@ Mihoyo has changed the pagination mechanic. They added an `id` for each wish and
 - The value of key `gacha_type` can now be 301 or 400. (**301** will be for wishes made on "Character event wish" banners and **400** will be for "Character event wish - 2".)
 
 ### Update 2.5 (January 2022)
-API domain changed from hk4e-api-os.mihoyo.com to hk4e-api-os.hoyoverse.com
+API domain changed from `hk4e-api-os.mihoyo.com` to `hk4e-api-os.hoyoverse.com`
